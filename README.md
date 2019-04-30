@@ -2,6 +2,24 @@
 
 ## Usage
 
+Clone this repo and build locally so that the artifact is installed to your local Maven repository. Use the following command to build and install:
+
+```shell
+mvn clean install
+```
+
+### Add Maven Dependency
+
+In your project, add the Maven dependency as follows:
+
+```xml
+<dependency>
+    <groupId>com.contactsunny.poc</groupId>
+    <artifactId>kafka-module</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
+```
+
 ### Initialization
 
 ```java
