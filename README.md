@@ -37,7 +37,7 @@ public class App {
 
 		try {
 			/*
-            Craete a KafkaModule object, another object of a class which implements
+            Create a KafkaModule object, another object of a class which implements
             the KafkaConsumerImplementation interface, and then listen to the
             topic using the listenToTopic() method.
              */
